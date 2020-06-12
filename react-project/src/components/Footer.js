@@ -2,19 +2,10 @@ import React from 'react'
 
 function Footer(){
     return (
-        <div style={footerStyle}>
-            <footer>
-                <p>Footer</p>
-            </footer>
+        <div>
+            <p className="center blue-text">Copyright 2020</p>
         </div>
     )
-}
-
-const footerStyle = {
-    background: '#333',
-    color: 'whitesmoke',
-    textAlign: 'center',
-    padding: '10px'
 }
 
 export default Footer
